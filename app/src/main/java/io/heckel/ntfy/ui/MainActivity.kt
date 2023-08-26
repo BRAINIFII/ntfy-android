@@ -349,9 +349,6 @@ class MainActivity : AppCompatActivity(), ActionMode.Callback, AddFragment.Subsc
         }
         val mutedUntilSeconds = repository.getGlobalMutedUntil()
         runOnUiThread {
-            // Show/hide in-app rate widget
-            val rateAppItem = menu.findItem(R.id.main_menu_rate)
-            rateAppItem.isVisible = BuildConfig.RATE_APP_AVAILABLE
 
             // Pause notification icons
             val notificationsEnabledItem = menu.findItem(R.id.main_menu_notifications_enabled)
@@ -385,20 +382,8 @@ class MainActivity : AppCompatActivity(), ActionMode.Callback, AddFragment.Subsc
                 startActivity(Intent(this, SettingsActivity::class.java))
                 true
             }
-            R.id.main_menu_report_bug -> {
-                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.main_menu_report_bug_url))))
-                true
-            }
-            R.id.main_menu_rate -> {
-                try {
-                    startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=$packageName")))
-                } catch (e: ActivityNotFoundException) {
-                    startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=$packageName")))
-                }
-                true
-            }
-            R.id.main_menu_donate -> {
-                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.main_menu_donate_url))))
+            R.id.main_menu_website -> {
+                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.main_menu_website_url))))
                 true
             }
             R.id.main_menu_docs -> {

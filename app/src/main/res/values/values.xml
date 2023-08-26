@@ -11,6 +11,8 @@
     <string name="main_menu_report_bug_url" translatable="false">https://github.com/binwiederhier/ntfy/issues</string>
     <string name="main_menu_docs_url" translatable="false">https://ntfy.brainifii.com/docs</string>
     <string name="main_menu_donate_url" translatable="false">https://github.com/sponsors/binwiederhier</string>
+    <string name="main_menu_website_url" translatable="false">https://www.brainifii.com/</string>
+    <string name="main_menu_website_text" translatable="false">My Website</string>
 
     <!-- Settings constants -->
     <string name="settings_notifications_muted_until_key" translatable="false">MutedUntil</string>

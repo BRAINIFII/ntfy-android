@@ -7,4 +7,5 @@
           app:showAsAction="ifRoom" android:icon="@drawable/ic_notifications_off_white_outline_24dp"/>
     <item android:id="@+id/main_menu_settings" android:title="@string/main_menu_settings_title"/>
     <item android:id="@+id/main_menu_docs" android:title="@string/main_menu_docs_title"/>
+    <item android:id="@+id/main_menu_website" android:title="@string/main_menu_website_text"/>
 </menu>
