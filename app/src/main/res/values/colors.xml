@@ -1,16 +1,16 @@
 <!--?xml version="1.0" encoding="UTF-8"?-->
 <resources>
     <color name="black">#ff000000</color>
-    <color name="black_900">#121212</color> <!-- Main dark mode surface color, as per style guide -->
-    <color name="black_800b">#1b2023</color> <!-- Action bar & item selection (dark mode); this has a touch of blue! -->
-    <color name="black_700b">#282F33</color> <!-- Card selection (dark mode); this has a touch of blue! -->
+    <color name="black_900">#000000</color> <!-- Main dark mode surface color, as per style guide -->
+    <color name="black_800b">#121212</color> <!-- Action bar & item selection (dark mode); this has a touch of blue! -->
+    <color name="black_700b">#191729</color> <!-- Card selection (dark mode); this has a touch of blue! -->
     <color name="gray_500">#dddddd</color> <!-- Card selection (light mode) -->
     <color name="gray_400">#eeeeee</color> <!-- Item selection (light mode) -->
     <color name="white">#ffffffff</color>
 
-    <color name="teal">#338574</color> <!-- Primary color (light mode) -->
-    <color name="teal_light">#65b5a3</color> <!-- Primary color (dark mode) -->
-    <color name="teal_dark">#2a6e60</color> <!-- Action bar background in action mode (light mode) -->
+    <color name="teal">#876EED</color> <!-- Primary color (light mode) -->
+    <color name="teal_light">#B79CED</color> <!-- Primary color (dark mode) -->
+    <color name="teal_dark">#6958EE</color> <!-- Action bar background in action mode (light mode) -->
     <color name="red_light">#fe4d2e</color> <!-- Danger text (dark mode) -->
     <color name="red_dark">#c30000</color> <!-- Danger text (light mode) -->
 </resources>
