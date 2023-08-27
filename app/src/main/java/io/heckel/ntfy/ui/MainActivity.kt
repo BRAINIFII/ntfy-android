@@ -390,6 +390,10 @@ class MainActivity : AppCompatActivity(), ActionMode.Callback, AddFragment.Subsc
                 startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.main_menu_docs_url))))
                 true
             }
+            R.id.main_menu_source -> {
+                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.main_menu_source_url))))
+                true
+            }
             else -> super.onOptionsItemSelected(item)
         }
     }
